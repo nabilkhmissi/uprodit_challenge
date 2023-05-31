@@ -1,0 +1,67 @@
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-radius: 10px;
+    max-width: 270px;
+    /* overflow: hidden; */
+}
+
+.details {
+    padding: 10px;
+    color: #919ca7;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 45px;
+    color: #919ca7;
+}
+
+.img {
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.rating {
+    text-align: end;
+    position: absolute;
+    border-radius: 5px 0 0 5px;
+    top: 40px;
+    right: -10px;
+    color: white;
+    background-color: #f9bc0d;
+    padding: 5px 10px;
+    z-index: 1;
+}
+
+.star {
+    font-size: 20px;
+}
+
+.specDescription {
+    padding-bottom: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.speciality p {
+    margin-bottom: 10px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #d5a419;
+    rotate: -135deg;
+    right: 4px;
+    position: absolute;
+    top: 90%;
+}

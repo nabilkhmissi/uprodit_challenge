@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 1.5em;
+    padding-bottom: 50px;
+}

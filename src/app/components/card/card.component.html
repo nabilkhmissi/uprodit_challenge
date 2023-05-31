@@ -1,0 +1,22 @@
+<div class="card">
+    <div class="img">
+        <img [src]="user.image" style="width: 100%;" alt="">
+    </div>
+    <div class="details">
+        <h2 class="name">{{ user.denomination }}</h2>
+        <div class="speciality">
+            <p>Spécialise en :</p>
+            <div class="specDescription">
+                {{ user.specialities.join(',') }}
+            </div>
+        </div>
+        <div class="rating">
+            <div class="content">
+                <span class="star">★</span> {{ user.stars_count }}
+            </div>
+            <div class="arrow-right">
+
+            </div>
+        </div>
+    </div>
+</div>

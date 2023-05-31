@@ -1,0 +1,13 @@
+<div class="filter-bar">
+    <div class="select-container">
+        <select class="size" (change)="setSize($event)">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+        </select>
+    </div>
+    <div class="button">
+        <button class="paginationBtn" (click)="goToPreviousPage()" [disabled]="isFirstPage">Previous</button>
+        <button class="paginationBtn" (click)="goToNextPage()">Next</button>
+    </div>
+</div>
