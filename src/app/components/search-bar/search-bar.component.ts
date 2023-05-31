@@ -20,6 +20,7 @@ export class SearchBarComponent implements OnInit {
       distinctUntilChanged(),
       startWith(this.searchInput.value),
       tap((searchString) => {
+        this._userService.pageSubject.next(1);
         this._userService.termSubject.next(searchString!)
       }),
     ).subscribe()
